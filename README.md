@@ -39,6 +39,7 @@ Provides a high-level view of complaint volume and service-quality indicators, i
 * Complaint volume by product
 * Complaint volume by issue
 * Company response distribution
+![Executive Overview](Screenshots/executive-overview.jpg)
 
 ### 2. Complaint Drivers & Root Cause
 
@@ -52,6 +53,7 @@ Key analysis includes:
 * Decomposition Tree analysis
 * Analysis across Product, Issue, Sub-product and Sub-issue
 * Interactive Product, State and Date filters
+![Complaint Drivers & Root Cause](Screenshots/complaint-drivers-root-cause.jpg)
 
 The purpose is to move from:
 
@@ -66,6 +68,7 @@ Examines how complaint activity varies across:
 * Products
 * Dates
 * Company response
+![Geographic & Channel Analysis](Screenshots/geographic-channel-analysis.jpg)
 
 This allows complaint concentration and channel-level patterns to be investigated rather than relying only on an overall complaint total.
 
@@ -80,6 +83,7 @@ The analysis includes:
 * Complaint trends
 * Product and state filtering
 * Date-based analysis
+![Response & Resolution Performance](Screenshots/response-resolution-performance.jpg)
 
 This view helps evaluate the service-quality side of the complaint process rather than focusing only on complaint volume.
 
@@ -96,6 +100,7 @@ The detailed view includes metrics such as:
 * Monetary relief / non-monetary relief indicators
 * Year-over-year complaint growth
 * Average complaints per day
+![Drill-through Investigation](Screenshots/drill-through-deep-dive.jpg)
 
 This allows a user to move from a high-level dashboard finding to a more focused investigation.
 
@@ -105,7 +110,7 @@ This allows a user to move from a high-level dashboard finding to a more focused
 
 The project follows a structured business-analysis workflow rather than presenting disconnected visuals.
 
-**Complaint Volume → Product → Issue → Root Cause → Geography / Channel → Response Performance → Detailed Investigation**
+**Complaint Volume → Product → Issue → Complaint Drivers → Geography / Channel → Response Performance → Detailed Investigation**
 
 This approach is designed to help a business user move from a high-level KPI to the dimensions behind that KPI and identify areas that may require further investigation.
 
@@ -170,9 +175,17 @@ The repository will contain:
 
 * Power BI report file (`.pbix`)
 * Dashboard screenshots
-* Data model documentation
 * Project documentation
 
+---
+
+## 📊 Dataset
+
+The project uses a consumer complaint dataset containing complaint records across products, issues, states, submission channels, and company response categories.
+
+The dataset contains 62,516 complaint records covering the period 2017–2023.
+
+Source: Maven Analytics Data Playground.
 ---
 
 ## 👤 Author
